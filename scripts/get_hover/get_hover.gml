@@ -1,0 +1,9 @@
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function get_hover(){
+	var _mouseX = device_mouse_x(0)
+	var _mouseY = device_mouse_y(0)
+	
+	return point_in_rectangle(_mouseX,_mouseY,x,y,x+width,y+height)
+
+}
